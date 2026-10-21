@@ -1,0 +1,13 @@
+- id: commentator-add
+  name: add header comments
+  description: Adds the configured header to files that do not have it.
+  entry: commentator add
+  language: python
+  types: [text]
+
+- id: commentator-check
+  name: check header comments
+  description: Fails if a file does not have the configured header.
+  entry: commentator check
+  language: python
+  types: [text]
